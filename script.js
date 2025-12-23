@@ -1,3 +1,12 @@
+function generateWish() {
+    const input = document.getElementById('input').value.trim() || 'ED';
+    const output = document.getElementById('output');
+    
+    // Optional:    output.innerHTML = '<p>Predicting the future of EDG (Dan Murphy's & BWS)... 🔮</p>';
+    output.classList.remove('hidden');
+
+    setTimeout(() => {
+       
 const templates = [
     "Dear ${input}, Imagine a future where AI gently suggests the perfect wine pairing as customers walk past shelves – Merry Christmas and here's to leading that innovation! 🎄",
     "To ${input}: Soon, smart mirrors in stores will show customers how a bottle would look on their holiday table. Wishing you a visionary year ahead! 🚀",
@@ -94,3 +103,11 @@ const templates = [
     "To ${input}: Future: Shopping journeys so smooth, customers leave happier every time. Merry Christmas! 😄",
     "${input}, Imagine a world where every customer feels like our favorite regular – thanks to thoughtful tech. Heartfelt wishes! ❤️"
 ];
+
+ ];
+        
+        const randomTemplate = templates[Math.floor(Math.random() * templates.length)];
+        const wish = randomTemplate.replace(/\$\{input\}/g, input);         
+        output.innerHTML = `<p>${wish}</p><p>Merry Christmas & Happy New Year 2026! 🎄🥂</p>`;
+    }, 1500); 
+}
