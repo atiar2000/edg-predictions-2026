@@ -95,7 +95,8 @@ const templates = [
     "${input}, Imagine a world where every customer feels like our favorite regular – thanks to thoughtful tech. Heartfelt wishes! ❤️"
 ];
 
- function generateWish() {
+ 
+function generateWish() {
     const inputValue = document.getElementById('input').value.trim() || 'ED';
     const output = document.getElementById('output');
 
@@ -103,7 +104,7 @@ const templates = [
     output.innerHTML = '<p>Predicting the future of EDG retail stores... 🔮</p>';
     output.classList.remove('hidden');
 
-    //  "thinking" delay
+    //   delay
     setTimeout(() => {
         const randomTemplate = templates[Math.floor(Math.random() * templates.length)];
         const wish = randomTemplate.replace(/\$\{input\}/g, inputValue);
@@ -112,12 +113,14 @@ const templates = [
             <p>${wish}</p>
             <p><strong>Merry Christmas & Happy New Year 2026!</strong> 🎄🥂</p>
         `;
-    }, 1500); // }
+    }, 1500); 
+} 
 
-//  click
+// button
 document.querySelector('button').onclick = generateWish;
 
-// Enter key document.getElementById('input').addEventListener('keypress', function(e) {
+// Enter key 
+document.getElementById('input').addEventListener('keypress', function(e) {
     if (e.key === 'Enter') {
         generateWish();
     }
