@@ -1,6 +1,6 @@
 # 🎄 Merry Retail Predictions 2026 🎄
 
-A special interactive holiday card created with appreciation for ED – our inspiring Chapter Lead.
+A special interactive holiday card created with appreciation for ED – our inspiring Practice Lead.
 
 This little web app is my Christmas and New Year gift to you:  
 100 unique, wish-thinking predictions for the future of EDG retail technology.  
