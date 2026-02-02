@@ -97,7 +97,7 @@ const templates = [
 
  
 function generateWish() {
-    const inputValue = document.getElementById('input').value.trim() || 'ED';
+    const inputValue = document.getElementById('input').value.trim() || 'Ati';
     const output = document.getElementById('output');
 
     //   message
@@ -111,7 +111,7 @@ function generateWish() {
 
         output.innerHTML = `
             <p>${wish}</p>
-            <p><strong>Merry Christmas & Happy New Year 2026!</strong> 🎄🥂</p>
+            <p><strong>Enjoy 2026!</strong> 🥂</p>
         `;
     }, 1500); 
 } 
@@ -125,4 +125,5 @@ document.getElementById('input').addEventListener('keypress', function(e) {
         generateWish();
     }
 });
+
 
