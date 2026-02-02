@@ -9,7 +9,7 @@ const templates = [
     "${input}: Picture data that predicts local taste trends months ahead – stocking the right craft beers before anyone asks.",
     "To ${input}, Future innovation: Voice assistants at home that reorder favorite wines when bottles run low.",
     "${input}, Imagine customers scanning a bottle and instantly seeing food pairing ideas on their phone.",
-    "Merry Christmas, ${input}! Soon, AI will help plan perfect store layouts that make shopping feel effortless and fun.",
+    "${input}! Soon, AI will help plan perfect store layouts that make shopping feel effortless and fun.",
     "${input}: Picture smart labels that change to show cocktail recipes or tasting notes when tapped.",
     "Dear ${input}, Future: Gentle reminders to customers about responsible enjoyment, perfectly timed and personal.",
     "${input}, Imagine virtual tasting rooms where customers sample wines from home before buyin.",
@@ -21,7 +21,7 @@ const templates = [
     "${input}, Picture AI that helps staff instantly find the best non-alcoholic alternative for any customer request.",
     "To ${input}: Future: Augmented reality labels letting customers see the vineyard story behind each bottle.",
     "${input}, Imagine stores that adjust lighting and music based on the mood customers want for their evening.",
-    "Merry Christmas, ${input}! Soon, AI will predict busy hours perfectly – helping schedule staff just right every time.",
+    "${input}! Soon, AI will predict busy hours perfectly – helping schedule staff just right every time.",
     "${input}: Picture customers receiving a 'drink memory' recap at year-end – their favorite bottles and moments.",
     "Dear ${input}, Future innovation: Smart coolers that suggest chilled drinks based on the weather outside.",
     "${input}, Imagine AI creating custom cocktail menus for home parties based on guest preferences shared in advance.",
@@ -33,7 +33,7 @@ const templates = [
     "${input}, Picture customers getting recipe ideas using bottles they already own at home.",
     "To ${input}: Future tech: AI-powered events matching customers with tastings they’ll truly enjoy.",
     "${input}, Imagine stores that remember customer preferences and greet them with personalised shelf highlights.",
-    "Merry Christmas, ${input}! Soon, data will help reduce waste by predicting demand with amazing accuracy.",
+    "${input}! Soon, data will help reduce waste by predicting demand with amazing accuracy.",
     "${input}: Picture virtual shelves online showing exactly what’s in stock in their local store right now.",
     "Dear ${input}, Future: AI suggesting the perfect drink for any occasion – birthday, quiet night, or celebration.",
     "${input}, Imagine customers trying new drinks confidently with AI-generated 'taste previews' on their phones.",
@@ -45,7 +45,7 @@ const templates = [
     "${input}, Picture customers receiving gentle suggestions for lower-alcohol options when they want them.",
     "To ${input}: Future: Virtual cellar tours from customers’ phones while standing in our aisles.",
     "${input}, Imagine AI helping staff give instant expert advice on food and drink pairings.",
-    "Merry Christmas, ${input}! Soon, smart inventory that orders stock before we even notice it’s low.",
+    "${input}! Soon, smart inventory solution that automates ordering, optimises promotions, and guides in-store placement to achieve predictable sales results.",
     "${input}: Picture customers designing their own custom spirit bundles online with smart suggestions.",
     "Dear ${input}, Future tech: Mood-based drink recommendations – relaxing, energizing, or celebratory.",
     "${input}, Imagine stores that feel like a personal liquor advisor is always nearby – but powered by AI.",
@@ -57,7 +57,7 @@ const templates = [
     "${input}, Picture in-store screens showing live customer favorites across all our location.",
     "To ${input}: Future innovation: AI helping plan unforgettable in-store tasting events automatically.",
     "${input}, Imagine customers discovering new drinks through fun, short quizzes on their phone.",
-    "Merry Christmas, ${input}! Soon, smart promotions that feel like thoughtful gifts, not ads.",
+    "${input}! Soon, smart promotions that feel like thoughtful gifts, not ads.",
     "${input}: Picture data helping us support local distilleries with perfect timing and placement.",
     "Dear ${input}, Future: Voice shopping that understands 'something like last time but lighter'.",
     "${input}, Imagine customers seeing how a bottle fits their home bar setup using their phone camera.",
@@ -69,7 +69,7 @@ const templates = [
     "${input}, Picture customers getting instant gift-wrapping ideas and messages when buying presents.",
     "To ${input}: Future: AI helping train staff with quick, personalised tips during quiet moments.",
     "${input}, Imagine stores that celebrate customer milestones – first purchase anniversary surprises.",
-    "Merry Christmas, ${input}! Soon, data will make every promotion feel perfectly timed and relevant.",
+    "${input}! Soon, data will make every promotion feel perfectly timed and relevant.",
     "${input}: Picture virtual happy hours connecting customers with experts from anywhere.",
     "Dear ${input}, Future innovation: Smart recommendations for building the perfect home bar step by step.",
     "${input}, Imagine AI spotting when a customer might enjoy trying something new – gently and perfectly.",
@@ -81,7 +81,7 @@ const templates = [
     "${input}, Picture customers discovering cocktail recipes using only bottles they already own.",
     "To ${input}: Future tech: Smart budgeting tools helping customers plan purchases responsibly.",
     "${input}, Imagine AI suggesting drinks that match the music playlist customers are listening to.",
-    "Merry Christmas, ${input}! Soon, every shopping trip will feel personal and delightful.",
+    "${input}! Soon, every shopping trip will feel personal and delightful.",
     "${input}: Picture virtual wine cellars customers can browse from home, linked to our real stock.",
     "Dear ${input}, Future: Gentle nudges toward new local producers customers will adore. Supporting cheers.",
     "${input}, Imagine stores celebrating cultural holidays with perfect drink suggestions from around the world.",
@@ -125,6 +125,7 @@ document.getElementById('input').addEventListener('keypress', function(e) {
         generateWish();
     }
 });
+
 
 
 
